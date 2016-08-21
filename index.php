@@ -11,7 +11,7 @@ define("USERNAME", "george.mihailov@lambdasolutions.net");
 define("PASSWORD", "lambdasecret1");
 define("SECURITY_TOKEN", "zGzLgLtwcoViBkDe5r7gAYQMn");
 
-require 'zendesk_api_client_php/vendor/autoload.php';
+require 'zendesk/vendor/autoload.php';
 require_once ('soapclient/SforceEnterpriseClient.php');
 use GuzzleHttp\Handler\CurlFactory;
 use Zendesk\API\HttpClient as ZendeskAPI;
